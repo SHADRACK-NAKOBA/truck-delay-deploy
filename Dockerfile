@@ -4,7 +4,7 @@
 # Build:   docker build -t freshbasket-dashboard .
 # Run:     docker run -p 8501:8501 freshbasket-dashboard
 
-FROM python:3.12-slim
+FROM public.ecr.aws/docker/library/python:3.12-slim
 
 WORKDIR /app
 
